@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+}
+
+body{
+    background-color: darkgray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa-principal{
+    
+    margin: 1%;
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+    top: 10%;
+     
+
+
+}
+
+.caixa-trabalho{
+    
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px 10px 10px 10px;
+    margin: 10%;
+  
+
+}
+.caixa-trabalho-titulo{
+    
+    text-align: left;
+
+}
+
+.caixa-trabalho-campos1{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.caixa-trabalho-campos2{
+    margin: 10px;
+    padding: 10px;
+    color: blue;
+    
+}
+#numero1, #numero2{
+    border-radius: 10px;
+    border: none;
+    width: 10%;
+    height: 2rem;
+    text-align: center;
+    font-size: 16px;
+
+}
