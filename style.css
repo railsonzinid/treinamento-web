@@ -17,7 +17,7 @@ body{
 .caixa-principal{
     
     margin: 1%;
-    border: 1px solid black;
+   /*  border: 1px solid black; */
     width: 90%;
     height: 90%;
     top: 10%; 
@@ -71,10 +71,11 @@ body{
 #numero1, #numero2, #numero3{
     border-radius: 10px;
     border: none;
-    width: 7%;
+    width: 15%;
     height: 3rem;
     text-align: center;
     font-size: 16px;
+    
 
 }
 
