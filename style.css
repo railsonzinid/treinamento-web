@@ -26,28 +26,33 @@ body{
 }
 .caixa-usuario-top{
     margin-left: 80%;
+    margin-bottom: 20px;
     width: 20%;
     text-align: center;
     margin-top: 10px;
     font-size: 34px;
     font-style:italic;
-    
-
 }
-
+h1{
+    text-align:center;
+    
+}
 .caixa-trabalho{
     
     border: 1px solid black;
     text-align: left;
     padding: 5px 10px 10px 10px;
-    margin: 10%;
+    margin: 5%;
   
 
 }
 .caixa-trabalho-titulo{
     
     text-align: left;
+}
 
+#paragrafo-trabalho{
+    margin-left: 15px;
 }
 
 .caixa-trabalho-campos1{

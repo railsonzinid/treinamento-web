@@ -1,5 +1,5 @@
 let titulo = document.querySelector('h1');
-titulo.innerHTML = ('Envio de Titulo, Ok!');
+titulo.innerHTML = ('TREINAMENTO WEB COM JAVASCRIPT');
 
 /* let paragrafo1 = document.getElementById('paragrafo-trabalho')
 paragrafo1.innerHTML = 'Envio de paragrafo area trabalho, Ok!';
@@ -30,6 +30,16 @@ function calcularMedia(){
 
     if(isNaN(n1)||isNaN(n2)||isNaN(n3)){
         document.getElementById('media').innerHTML = 'Você digitou um valor invalido, tente novamente.';
+        return;
+    }
+
+    if(!n1 || !n2 || !n3){
+        document.getElementById('media').innerHTML = 'Todos os campos precisam ser preenchidos, tente novamente.';
+        return;
+    }
+
+    if((!n1 && isNaN(n1)) || (!n2 && isNaN(n2)) || (!n3 && isNaN(n3))){
+        document.getElementById('media').innerHTML = 'Existe ao menos um campo em branco e um numero invalido, verifique e tente novamente';
         return;
     }
 
