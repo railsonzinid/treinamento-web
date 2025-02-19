@@ -20,9 +20,18 @@ body{
     border: 1px solid black;
     width: 90%;
     height: 90%;
-    top: 10%;
-     
+    top: 10%; 
 
+
+}
+.caixa-usuario-top{
+    margin-left: 80%;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 34px;
+    font-style:italic;
+    
 
 }
 
@@ -44,21 +53,50 @@ body{
 .caixa-trabalho-campos1{
     margin: 10px;
     padding: 10px;
-    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
-
 .caixa-trabalho-campos2{
     margin: 10px;
     padding: 10px;
-    color: blue;
-    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#numero1, #numero2{
+.caixa-trabalho-campos3{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+#numero1, #numero2, #numero3{
     border-radius: 10px;
     border: none;
-    width: 10%;
-    height: 2rem;
+    width: 7%;
+    height: 3rem;
     text-align: center;
     font-size: 16px;
 
+}
+
+.bnt-calcular{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor:pointer;
+}
+.bnt-calcular:hover{
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    cursor:pointer;
+    color: white;
+    background-color: black;
+}
+p{
+    font-size: 30px;
+    margin-top: 15px;
 }

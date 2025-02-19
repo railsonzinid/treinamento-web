@@ -12,20 +12,32 @@
 
     <div class="caixa-principal">
 
-        
+        <div class="caixa-usuario-top">
+            <p id="paragrafo-usuario"></p>
+        </div>
         <div class="caixa-trabalho">
             <div class="caixa-trabalho-titulo">
                 <h1></h1>
-                <p></p>
+                <p id="paragrafo-trabalho"></p>
             </div>
-                <div class="caixa-trabalho-campos1">
+                <div class="caixa-trabalho-campos1" id="">
                 <label id="lbl-numero1">Primeiro Numero:</label>
                 <input type="text" id="numero1" placeholder="Digite um numero" />
             </div>
-            <div class="caixa-trabalho-campos2">
+            <div class="caixa-trabalho-campos2" id="">
                 <label id="lbl-numero2">Segundo Numero:</label>
                 <input type="text" id="numero2" placeholder="Digite um numero" />
             </div>
+            <div class="caixa-trabalho-campos3" id="">
+                <label id="lbl-numero3">Segundo Numero:</label>
+                <input type="text" id="numero3" placeholder="Digite um numero" />
+            </div>
+            <div class="caixa-trabalho-botao">
+                <button class="bnt-calcular" onclick="calcularDoblo()">Dobro</button>      
+                <button class="bnt-calcular" onclick="calcularMedia()">Media</button>           
+            </div>
+            <p id="resultado"></p>
+            <p id="media"></p>
         </div>
     </div>
     <script src="/app.js"></script>
