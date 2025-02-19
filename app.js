@@ -35,7 +35,7 @@ function calcularMedia(){
 
     let media = (n1+n2+n3)/3;
 
-        document.getElementById('media').innerHTML = `A médio dos numeros digitados é ${media.toFixed(2)}`
+        document.getElementById('media').innerHTML = `A médio dos numeros digitados é ${media.toFixed(2)}`; 
 
     console.log(media);
 }
